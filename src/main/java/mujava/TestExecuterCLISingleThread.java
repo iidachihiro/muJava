@@ -27,6 +27,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.Vector;
 
+import org.junit.runner.JUnitCore;
+import org.junit.runner.notification.Failure;
+
 import mujava.cli.Util;
 import mujava.cli.runmutes;
 import mujava.test.JMutationLoader;
@@ -35,8 +38,6 @@ import mujava.test.NoMutantException;
 import mujava.test.TestResultCLI;
 import mujava.util.Debug;
 
-import org.junit.runner.JUnitCore;
-import org.junit.runner.notification.Failure;
 /**
  * 
  * <p>
